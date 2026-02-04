@@ -6,3 +6,9 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# some checks
+check
+
+# credentials stored in .env files
+.env
