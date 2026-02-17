@@ -1,7 +1,9 @@
 import { test, expect } from '@playwright/test';
-import { listFrameNames } from '../../utils/frameUtils';
 
-test.skip('Frames example', async ({ page }) => {
+
+// const url = "https://demoqa.com/frames";
+
+test('Frames example', async ({ page }) => {
 
     const url = "https://demoqa.com/frames";
     await page.goto(url);
@@ -64,7 +66,7 @@ test.skip('Frames example', async ({ page }) => {
 });
 
 
-test('Nested Frames example', async ({ page }) => {
+test.skip('Nested Frames example', async ({ page }) => {
 
     const url = "https://demoqa.com/nestedframes";
     await page.goto(url);
